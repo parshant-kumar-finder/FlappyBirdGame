@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic tac toe.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="main-head">Tic Tac Toe</h1>
+    <div id="board">
+        <div class="board-row">
+            <div onclick="implementTurn(this)" class="board-box" id="1"></div>
+            <div onclick="implementTurn(this)" class="board-box" id="2"></div>
+            <div onclick="implementTurn(this)" class="board-box" id="3"></div>
+        </div> 
+        <div class="board-row">
+            <div onclick="implementTurn(this)" class="board-box" id="4"></div>
+            <div onclick="implementTurn(this)" class="board-box" id="5"></div>
+            <div onclick="implementTurn(this)" class="board-box" id="6"></div>
+        </div>
+        <div class="board-row">
+            <div onclick="implementTurn(this)" class="board-box" id="7"></div>
+            <div onclick="implementTurn(this)" class="board-box" id="8"></div>
+            <div onclick="implementTurn(this)" class="board-box" id="9"></div>
+        </div>
+    </div>
+    <h3 id="turnOfPlayer">Turn of Player: <span id="activePlayer">x</span></h3>
+
+    <!-- javascript link -->
+    <script src="tic tac toe.js"></script>
+</body>
+
+</html>
