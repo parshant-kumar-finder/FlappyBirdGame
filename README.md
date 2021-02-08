@@ -1,2 +1,3 @@
 # FlappyBirdGame
-![flappyBirdGIF](https://user-images.githubusercontent.com/65731730/107266969-43b6d580-6a6c-11eb-9230-ea47aecf5739.gif)
+![flappyBirdGIF](https://user-images.githubusercontent.com/65731730/107268467-2daa1480-6a6e-11eb-9ce8-bae78272c19f.gif)
+
