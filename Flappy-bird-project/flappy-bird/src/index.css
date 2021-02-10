@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
+  /* display: flex; */
 }
 
 code {
@@ -19,12 +19,14 @@ code {
   height: 730px;
   position: absolute;
   left: 80px;
+  z-index: 0;
 }
 .sky {
   background-image: url('fb-game-background.png');
   width: 500px;
   height: 580px;
   position: absolute;
+  z-index: 0;
 }
 
 /* .ground {
@@ -67,7 +69,7 @@ code {
 }
 
 .border-top {
-  width: 660px;
+  width: 550px;
   height: 50px;
   position:  absolute;
   background-color: white;
@@ -89,4 +91,44 @@ code {
   background-color: white;
   z-index: +2;
   left: 580px;
+}
+
+.game-over-card{
+  position: absolute;
+  z-index: 15;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(229, 233, 211);
+  font-size: 1.5em;
+  padding: 20px;
+  left: 180px;
+  top:330px;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  opacity: 0.5;
+} 
+.whole{
+ 
+  height: 800px;
+  width: 700px;
+  /* background-color: aquamarine;
+  border:2px solid red; */
+  position: relative;
+  margin: auto;
+  
+}
+.score{
+  position: absolute;
+  z-index: 15;
+  height: 20px;
+  width: 150px;
+  /* background-color: rgb(229, 233, 211); */
+  font-size: 0.7em;
+  padding: 5px;
+  left: 170px;
+  top:130px;
+  border-radius: 5px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  opacity: 0.5;
 }
